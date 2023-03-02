@@ -1,0 +1,25 @@
+.App{
+ color: rgb(212, 212, 212);
+ display: grid;
+    min-height: 100vh;
+    background-color: rgb(151, 151, 151);
+    grid-template-rows: 1fr 8fr 100px;
+}
+.body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+    margin: 50px;
+}
+.footer{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
